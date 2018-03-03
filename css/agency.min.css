@@ -8,11 +8,11 @@ p {
 }
 
 a {
-    color: rosybrown;
+    color: #B6B0A5;
 }
 
 a:hover {
-    color: tan;
+    color: #B6B0A5;
 }
 
 .text-primary {
@@ -45,7 +45,7 @@ section h3.section-subheading {
     /* font-style: italic; */
     margin-bottom: 75px;
     text-transform: none;
-    font-family:  'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
 @media (min-width:768px) {
@@ -56,7 +56,7 @@ section h3.section-subheading {
 
 .btn {
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 700
+    font-weight: 700;
 }
 
 .btn-xl {
@@ -67,6 +67,7 @@ section h3.section-subheading {
 .btn-primary {
     background-color: #2c2c2e;
     border-color: #2c2c2e;
+    color: #F3F3EB;
 }
 
 .btn-primary:active,
@@ -79,16 +80,22 @@ section h3.section-subheading {
 
 .btn-primary:active,
 .btn-primary:focus {
-    box-shadow: 0 0 0 .2rem rgba(	184,134,11, .5)!important
+    box-shadow: 0 0 0 .2rem rgba(184, 135, 11, 0.742)!important;
+    color: #696b6a;
+
+}
+a.btn-primary:active{
+    color: #696b6a;
+
 }
 
 ::-moz-selection {
-    background: tan;
+    background: #B6B0A5;
     text-shadow: none
 }
 
 ::selection {
-    background: tan;
+    background: #B6B0A5;
     text-shadow: none
 }
 
@@ -109,14 +116,14 @@ img::-moz-selection {
     right: 0;
     padding: 13px;
     text-transform: uppercase;
-    color: #fff;
+    color: #212529;
     border: 0;
-    background-color: tan;
+    background-color: #f8f9fa;
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
 #mainNav .navbar-brand {
-    color: tan;
+    color: #B6B0A5;
     font-family: 'Helvetica Neue', Helvetica, Arial
 }
 
@@ -124,7 +131,7 @@ img::-moz-selection {
 #mainNav .navbar-brand:active,
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
-    color: #FFE4C4
+    color: #E4DCD1
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -136,9 +143,12 @@ img::-moz-selection {
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
-#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #E4DCD1;
+}
+
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: tan
+    color: #B6B0A5;
 }
 
 @media (min-width:992px) {
@@ -174,7 +184,7 @@ img::-moz-selection {
 header.masthead {
     text-align: center;
     color: #fff;
-    background: linear-gradient(rgba(0, 0,0,0.85), rgba(0, 0,0,0.50)), url(../img/header-pic.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.50)), url(../img/header-pic.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -186,7 +196,8 @@ header.masthead {
 
 header.masthead .intro-text {
     padding-top: 150px;
-    padding-bottom: 100px
+    padding-bottom: 100px;
+    color: #F3F3EB;
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -194,7 +205,8 @@ header.masthead .intro-text .intro-lead-in {
     /* font-style: italic; */
     line-height: 30px;
     margin-bottom: 25px;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #F8F9FA;
 }
 
 header.masthead .intro-text .intro-heading {
@@ -222,23 +234,32 @@ header.masthead .intro-text .intro-heading {
         font-weight: 700;
         line-height: 75px;
         margin-bottom: 50px;
-        font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
+        font-family: "Montserrat", 'Helvetica Neue', Helvetica, Arial, sans-serif
     }
 }
-#services{
-    background-color: #ffffff;
+
+#services {
+    background-color: #F3F3EB;
 }
 
 .service-heading {
     margin: 15px 0;
     text-transform: none
 }
-#portfolio{
-    background-color: #f3f3eb;
+
+#portfolio {
+    background-color: #F8F9FA;
 }
+
 #portfolio .portfolio-item {
     right: 0;
-    margin: 0 0 15px
+    margin: 0 0 15px;
+}
+
+#portfolio .shadow-card {
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -257,8 +278,7 @@ header.masthead .intro-text .intro-heading {
     -moz-transition: all ease .5s;
     transition: all ease .5s;
     opacity: 0;
-    background: rgba(44,44,46
-    , 0.9)
+    background: rgba(44, 44, 46, 0.902);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -295,7 +315,9 @@ header.masthead .intro-text .intro-heading {
 
 #portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
-    text-transform: none
+    text-transform: none;
+    font-size: 22px;
+    line-height: 35px;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
@@ -313,6 +335,9 @@ header.masthead .intro-text .intro-heading {
     #portfolio .portfolio-item {
         margin: 0 0 30px
     }
+    /* #portfolio .shadow-card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    } */
 }
 
 .portfolio-modal {
@@ -320,13 +345,19 @@ header.masthead .intro-text .intro-heading {
 }
 
 .portfolio-modal .modal-dialog {
-    margin: 1rem;
-    max-width: 100vw
+    margin: auto;
+    max-width: 650px
+}
+.portfolio-modal .modal-body {
+background-color: transparent;
+padding: 30px;
 }
 
 .portfolio-modal .modal-content {
     padding: 100px 0;
-    text-align: center
+    text-align: center;
+    background-color: white;
+    border: none;
 }
 
 .portfolio-modal .modal-content h2 {
@@ -365,7 +396,7 @@ header.masthead .intro-text .intro-heading {
     width: 75px;
     height: 75px;
     cursor: pointer;
-    background-color: transparent
+    background-color: transparent;
 }
 
 .portfolio-modal .close-modal:hover {
@@ -392,7 +423,10 @@ header.masthead .intro-text .intro-heading {
     transform: rotate(90deg);
     background-color: #212529
 }
-#about{
+
+
+
+#about {
     background-color: #fff;
 }
 
@@ -410,7 +444,7 @@ header.masthead .intro-text .intro-heading {
     width: 2px;
     margin-left: -1.5px;
     content: '';
-    background-color: #e9ecef
+    background: linear-gradient(to left, #696b6a3a 10%, #F8F9FA 90%);
 }
 
 .timeline>li {
@@ -460,9 +494,10 @@ header.masthead .intro-text .intro-heading {
     margin-left: 0;
     text-align: center;
     color: #b9bbba;
-    border: 7px solid #e9ecef;
+    border: 0px solid rgba(182, 176, 165, 0.406);
     border-radius: 100%;
-    background-color: white;
+    background-color: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .timeline>li .timeline-image h4 {
@@ -495,6 +530,10 @@ header.masthead .intro-text .intro-heading {
     margin-bottom: 0
 }
 
+.timeline>li:last-child>.timeline-image {
+    background-color: #696969;
+}
+
 .timeline .timeline-heading h4 {
     margin-top: 0;
     color: inherit
@@ -506,7 +545,8 @@ header.masthead .intro-text .intro-heading {
 
 .timeline .timeline-body>p,
 .timeline .timeline-body>ul {
-    margin-bottom: 0
+    margin-bottom: 0;
+    text-align: left;
 }
 
 @media (min-width:768px) {
@@ -515,7 +555,7 @@ header.masthead .intro-text .intro-heading {
     }
     .timeline>li {
         min-height: 100px;
-        margin-bottom: 100px
+        margin-bottom: 95px
     }
     .timeline>li .timeline-panel {
         float: left;
@@ -568,7 +608,7 @@ header.masthead .intro-text .intro-heading {
         min-height: 170px
     }
     .timeline>li .timeline-panel {
-        padding: 0 20px 20px 100px
+        padding: 0 20px 20px 20px
     }
     .timeline>li .timeline-image {
         width: 170px;
@@ -579,26 +619,28 @@ header.masthead .intro-text .intro-heading {
         margin-top: 40px
     }
     .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 100px 20px 20px
+        padding: 0 20px 20px 20px
     }
 }
-#team{
-    background-color: #f3f3eb;
-}
 
+#team {
+    background-color: #F3F3EB;
+}
 
 .team-member {
     margin-bottom: 50px;
-    text-align: center
+    text-align: center;
 }
 
 .team-member img {
     width: 225px;
     height: 225px;
+    /* display: inline-block; */
+    /* text-align: center; */
+/* margin: auto; */
     border: 7px solid #fff;
     filter: gray;
     -webkit-filter: grayscale(100%);
-
 }
 
 .team-member h4 {
@@ -640,7 +682,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: tan;
+    border-color: #B6B0A5;
     box-shadow: none
 }
 
@@ -668,18 +710,23 @@ section#contact :-ms-input-placeholder {
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
-
-#sendMessageButton{
-    background-color: #d2b9a2;
+#sendMessageButton {
+    background-color: #696b6a;
+    color: #F3F3EB;
+    font-weight: 550;
 }
-#sendMessageButton:hover{
-    background-color: #d2b9a2;
+
+#sendMessageButton:hover {
+    background-color: #E4DCD1
+    ;
     color: #696b6a;
+    ;
 }
 
-.py-5{
+.py-5 {
     background-color: #f3f3eb;
 }
+
 footer {
     padding: 25px 0;
     text-align: center
@@ -722,5 +769,5 @@ ul.social-buttons li a {
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-    background-color: tan
+    background-color: #B6B0A5
 }

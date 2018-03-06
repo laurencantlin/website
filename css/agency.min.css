@@ -653,6 +653,10 @@ padding: 30px;
     margin-top: 0
 }
 
+#cv{
+    background-color: #F8F9FA;
+}
+
 section#contact {
     background-color: #212529;
     background-image: url(../img/map-image.png);

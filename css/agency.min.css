@@ -82,11 +82,10 @@ section h3.section-subheading {
 .btn-primary:focus {
     box-shadow: 0 0 0 .2rem rgba(184, 135, 11, 0.742)!important;
     color: #696b6a;
-
 }
-a.btn-primary:active{
-    color: #696b6a;
 
+a.btn-primary:active {
+    color: #696b6a;
 }
 
 ::-moz-selection {
@@ -348,9 +347,10 @@ header.masthead .intro-text .intro-heading {
     margin: auto;
     max-width: 650px
 }
+
 .portfolio-modal .modal-body {
-background-color: transparent;
-padding: 30px;
+    background-color: transparent;
+    padding: 30px;
 }
 
 .portfolio-modal .modal-content {
@@ -423,8 +423,6 @@ padding: 30px;
     transform: rotate(90deg);
     background-color: #212529
 }
-
-
 
 #about {
     background-color: #fff;
@@ -637,7 +635,7 @@ padding: 30px;
     height: 225px;
     /* display: inline-block; */
     /* text-align: center; */
-/* margin: auto; */
+    /* margin: auto; */
     border: 7px solid #fff;
     filter: gray;
     -webkit-filter: grayscale(100%);
@@ -653,7 +651,7 @@ padding: 30px;
     margin-top: 0
 }
 
-#cv{
+#cv {
     background-color: #F8F9FA;
 }
 
@@ -721,15 +719,215 @@ section#contact :-ms-input-placeholder {
 }
 
 #sendMessageButton:hover {
-    background-color: #E4DCD1
-    ;
+    background-color: #E4DCD1;
     color: #696b6a;
     ;
 }
 
-.py-5 {
-    background-color: #f3f3eb;
+#cv section {
+    /* background-color: white; */
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0 auto;
 }
+
+.cv.container {
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+#cv div.section {
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+h2.cv.section {
+    background-color: lightgray;
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+
+}
+#cv div.section>div.col {
+    padding: 0;
+}
+div.company-div {
+    margin: 0 auto;
+    padding: 0 15px;
+}
+#cv div.co-header {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+#cv div.co-header>div.col {
+    padding: 0;
+    border: none;
+    border-bottom: 2px solid gray;
+    /* background-color: white; */
+}
+
+
+#cv div.co-header>div.col>h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: gray;
+    padding: 5px;
+    margin: 0;
+    /* background-color: white; */
+}
+#cv div.co-positions {
+    padding: 0;
+    margin: 0;
+}
+
+#cv div.co-positions>div.col {
+    padding: 0;
+}
+
+#cv div.position-title {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+#cv div.position-title>div.col {
+    padding: 0;
+    border: none;
+}
+
+#cv div.position-title>div.col>h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: right;
+    /* background-color: white; */
+    padding: 5px;
+    margin: 0;
+}
+
+#cv div.position-title>div.col>h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: italic;
+    text-align: right;
+    /* background-color: white; */
+    padding: 5px;
+    margin: 0;
+}
+
+#cv div.co-positions>div.col>ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    /* background-color: white; */
+    padding: 5px 0px 5px 40px;
+}
+
+#cv div.education {
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+#cv div.education>div.row>div.col {
+    padding: 0;
+}
+
+
+#cv div.education {
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+#cv div.education>div.row>div.col {
+    padding: 0;
+}
+#cv div.education>div.school {
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+#cv div.school>div.col>h4 {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+}
+
+#cv div.school>div.col>p {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+}
+
+#cv div.skills {
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+#cv div.all-the-skills>div.col {
+    padding: 0;
+}
+
+#cv div.all-the-skills {
+    padding: 0;
+    margin: 0 auto;
+}
+#cv div.all-the-skills>div.col>h3 {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+}
+
+#cv div.all-the-skills>div.col>h4 {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+}
+/* #cv div{
+    margin: 0 auto;
+}
+
+
+#cv div {
+    padding: 20px;
+    margin: 10px;
+}
+
+#cv h3,
+h4,
+h5 {
+    background-color: #eee;
+    padding: 20px;
+    margin: 10px;
+}
+
+#cv div.col {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */
 
 footer {
     padding: 25px 0;

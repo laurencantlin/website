@@ -1,0 +1,182 @@
+body {
+    background-color: #eeeeee;
+}
+
+container {
+    margin: 0 auto;
+}
+
+section {
+    background-color: white;
+}
+
+h2,
+article {
+    background-color: lightgray;
+    padding: 20px;
+    margin: 10px;
+}
+
+div {
+    padding: 20px;
+    margin: 10px;
+}
+
+h3,
+h4,
+h5 {
+    background-color: #eee;
+    padding: 20px;
+    margin: 10px;
+}
+
+div.col {
+    margin: 0;
+}
+
+div.company-div {
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h2 {
+    text-align: center;
+}
+
+div.section {
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+div.section>div.col {
+    padding: 0;
+}
+
+h2.section {
+    padding: 0;
+    margin: 0;
+}
+
+div.co-header {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+div.co-header>div.col {
+    padding: 0;
+    border: none;
+    border-bottom: 2px solid gray;
+    background-color: white;
+}
+
+div.co-header>div.col>h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: gray;
+    padding: 5px;
+    margin: 0;
+    background-color: white;
+}
+
+div.co-positions {
+    padding: 0;
+    margin: 0;
+}
+
+div.co-positions>div.col {
+    padding: 0;
+}
+
+div.position-title {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+div.position-title>div.col {
+    padding: 0;
+    border: none;
+}
+
+div.position-title>div.col>h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: right;
+    background-color: white;
+    padding: 5px;
+    margin: 0;
+}
+
+div.position-title>div.col>h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: italic;
+    text-align: right;
+    background-color: white;
+    padding: 5px;
+    margin: 0;
+}
+
+div.co-positions>div.col>ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: white;
+    padding: 5px 0px 5px 40px;
+}
+
+div.education {
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+div.education>div.row>div.col {
+    padding: 0;
+}
+
+div.education>div.school {
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+div.school>div.col>h4 {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+}
+div.school>div.col>p {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+}
+div.skills {
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+div.all-the-skills>div.col {
+    padding: 0;    
+    border: 1px dotted rgb(7, 201, 188);
+
+}
+div.all-the-skills{
+    padding:0;
+    margin: 0 auto;
+}
+div.all-the-skills>div.col>h3 {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+
+}
+div.all-the-skills>div.col>h4{
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+
+}

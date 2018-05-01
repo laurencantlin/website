@@ -148,6 +148,7 @@
           <h3 class="section-subheading text-muted"></h3>
         </div>
       </div>
+
       <div class="row">
         <div class="col-md-4 col-sm-6 portfolio-item">
           <div class="shadow-card">
@@ -157,12 +158,12 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/01_thumb.png" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Responsive Portfolio</h4>
-              <br>
-              <p class="text-muted text-nowrap text-truncate"> Bootstrap| HTML | CSS</p>
+              <h4>Interview Fiend App</h4>
+              <p class="text-muted text-nowrap text-truncate"> HTML | CSS | JavaScript</p>
+              <p class="text-muted text-nowrap text-truncate"> React.js | Node.js | MySQL</p>
               <p class="text-muted text-nowrap text-truncate">
               </p>
             </div>
@@ -177,14 +178,13 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/02_thumb.png" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Friend-Finder App</h4>
-              <p class="text-muted text-nowrap text-truncate">Bootstrap | HTML | CSS
-              </p>
-              <p class="text-muted text-nowrap text-truncate">
-                Node.js | Heroku | jQuery </p>
+              <h4>Bracket Mayhem App</h4>
+
+              <p class="text-muted text-nowrap text-truncate"> HTML | CSS | JavaScript</p>
+              <p class="text-muted text-nowrap text-truncate"> jQuery | Node.js | MySQL</p>   
             </div>
           </div>
         </div>
@@ -209,9 +209,57 @@
           </div>
         </div>
       </div>
+
+      <div class="row">
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <div class="shadow-card">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Responsive Portfolio</h4>
+              <br>
+              <p class="text-muted text-nowrap text-truncate"> Bootstrap| HTML | CSS</p>
+              <p class="text-muted text-nowrap text-truncate">
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <div class="shadow-card">
+
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Friend-Finder App</h4>
+              <p class="text-muted text-nowrap text-truncate">Bootstrap | HTML | CSS
+              </p>
+              <p class="text-muted text-nowrap text-truncate">
+                Node.js | Heroku | jQuery </p>
+            </div>
+          </div>
+        </div>
+      
+
+      </div>
+
+
     </div>
   </section>
 
+  <!-- EXPERIENCE -->
   <section id="about">
     <div class="container">
       <div class="row">
@@ -438,9 +486,10 @@
   </footer>
 
   <!-- Portfolio Modals -->
-  <!-- Modal 1 -->
-  <div class="portfolio-modal modal fade show" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
+ 
+  <!-- INTERVIEW FIEND APP -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
           <div class="lr">
@@ -449,30 +498,32 @@
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-lg-12 mx-auto">
+            <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Responsive Portfolio</h2>
-                <p class="item-intro text-muted"></p>
-
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-
-                <ul class="list-inline">
-                  <li>Date: Winter 2017</li>
-                  <li>Class Project</li>
-                  <br>
-                  <li>HTML | CSS </li>
-                  <li>Bootstrap</li>
-                </ul>
-                <p>
-                  <a href="https://github.com/laurencantlin/Bootstrap-Portfolio" target="blank">>> GitHub repository</a>
+                <h2 class="text-uppercase">Interview Fiend</h2>
+                <p class="item-intro text-muted">
                 </p>
-                <p class="text-muted">...</p>
-                <a href="https://laurencantlin.github.io/Bootstrap-Portfolio/" target="blank">
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/01_full.png" alt="">
+                <p></p>
+                <ul class="list-inline">
+                  <li>Date : April 2018</li>
+                  <br>
+                  <li>HTML | CSS | Javascript | Bulma</li>
+                  <li>React.js | Node.js | Express </li>
+                  <li>Sequelize | MySQL</li>
+                  <p>
+                    <a href="https://github.com/laurencantlin/Project-3-InterviewFiend" target="blank">>> GitHub repository</a>
+                  </p>
+                  <p class=" text-muted">Interview Fiend is a full stack web application that allows users to practice interview skills.
+                  </p>
+                </ul>
+                <a href="https://interviewfiend.herokuapp.com/" target="blank">
                   <button class="btn btn-primary" type="button">
                     <i class="fa fa-arrow-right"></i>
                     Visit App</button>
                 </a>
+
               </div>
             </div>
           </div>
@@ -481,7 +532,7 @@
     </div>
   </div>
 
-  <!-- Modal 2 -->
+  <!-- BRACKET MAYHEM APP -->
   <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -495,28 +546,31 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Friend-Finder App</h2>
-                <p class="item-intro text-muted"></p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-
+                <h2 class="text-uppercase">Bracket Mayhem</h2>
+                <p class="item-intro text-muted">
+                </p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/02_full.png" alt="">
+                <p></p>
                 <ul class="list-inline">
-                  <li>Date: Winter 2017</li>
-                  <li>Class Project</li>
+                  <li>Date : March 2018</li>
+                  <li>Collaborators : John Transor and Krista Jesek</li>
                   <br>
-
-                  <li>HTML | CSS | Javascript</li>
-                  <li>Bootstrap | jQuery</li>
-                  <li>Express | Heroku | Node.js</li>
+                  <li>HTML | CSS | Javascript | Bootstrap</li>
+                  <li>Node.js | jQuery | Express</li>
+                  <li>Sequelize | MySQL</li>
+                  <li>Uses Sports Radar API</li>
                   <p>
-                    <a href="https://github.com/laurencantlin/Friend-Finder" target="blank"> >> GitHub repository</a>
+                    <a href="https://github.com/kjesek/bracketMayhem" target="blank">>> GitHub repository</a>
                   </p>
-                  <p class="text-muted">...</p>
+                  <p class=" text-muted">Bracket Madness is a full stack application that allows users to create NCAA March Madness brackets.
+                  </p>
                 </ul>
-                <a href="https://dry-gorge-61051.herokuapp.com/" target="blank">
+                <a href="https://bracket-mayhem.herokuapp.com/" target="blank">
                   <button class="btn btn-primary" type="button">
                     <i class="fa fa-arrow-right"></i>
                     Visit App</button>
                 </a>
+
               </div>
             </div>
           </div>
@@ -525,7 +579,7 @@
     </div>
   </div>
 
-  <!-- Modal 3 -->
+  <!-- PACKING LIST APP -->
   <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -572,6 +626,94 @@
       </div>
     </div>
   </div>
+
+  <!-- RESPONSIVE PORTFOLIO -->
+  <div class="portfolio-modal modal fade show" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Responsive Portfolio</h2>
+                <p class="item-intro text-muted"></p>
+
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
+
+                <ul class="list-inline">
+                  <li>Date: Winter 2017</li>
+                  <li>Class Project</li>
+                  <br>
+                  <li>HTML | CSS </li>
+                  <li>Bootstrap</li>
+                </ul>
+                <p>
+                  <a href="https://github.com/laurencantlin/Bootstrap-Portfolio" target="blank">>> GitHub repository</a>
+                </p>
+                <p class="text-muted">...</p>
+                <a href="https://laurencantlin.github.io/Bootstrap-Portfolio/" target="blank">
+                  <button class="btn btn-primary" type="button">
+                    <i class="fa fa-arrow-right"></i>
+                    Visit App</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FRIEND FINDER APP -->
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Friend-Finder App</h2>
+                <p class="item-intro text-muted"></p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
+
+                <ul class="list-inline">
+                  <li>Date: Winter 2017</li>
+                  <li>Class Project</li>
+                  <br>
+
+                  <li>HTML | CSS | Javascript</li>
+                  <li>Bootstrap | jQuery</li>
+                  <li>Express | Heroku | Node.js</li>
+                  <p>
+                    <a href="https://github.com/laurencantlin/Friend-Finder" target="blank"> >> GitHub repository</a>
+                  </p>
+                  <p class="text-muted">...</p>
+                </ul>
+                <a href="https://dry-gorge-61051.herokuapp.com/" target="blank">
+                  <button class="btn btn-primary" type="button">
+                    <i class="fa fa-arrow-right"></i>
+                    Visit App</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>

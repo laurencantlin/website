@@ -2,12 +2,24 @@
 <html lang="en">
 
 <head>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MNVJBPQ');</script>
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MNVJBPQ');
+
+  </script>
   <!-- End Google Tag Manager -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,28 +28,31 @@
   <meta name="google-site-verification" content="muDwslHoj6pzslyKeD-wPGEkm4yLtS9pnmrwE2AykUo" />
   <title>Lauren Cantlin </title>
   <!-- <link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="47x47"> -->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118758071-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118758071-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-118758071-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-118758071-1');
+
+  </script>
+
+
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css"> -->
+
   <!-- Custom fonts for this template -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
-    crossorigin="anonymous">
-
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
   <!-- 
   <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" /> -->
-
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -45,40 +60,54 @@
 
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
-<!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '887554341427901', {
-    'em': 'emailaddress',
-    'fn': 'fn',
-    'ln': 'ln',
-    'ph': 'ph',
-    'ge': 'gen',
-    'db': 'dob',
-    'zp': 'zip',
-  });
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
+
+  <!-- Facebook Pixel Code -->
+  <script>
+    ! function(f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function() {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '887554341427901', {
+      'em': 'emailaddress',
+      'fn': 'fn',
+      'ln': 'ln',
+      'ph': 'ph',
+      'ge': 'gen',
+      'db': 'dob',
+      'zp': 'zip',
+    });
+    fbq('track', 'PageView');
+
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
   src="https://www.facebook.com/tr?id=887554341427901&ev=PageView&noscript=1"
 /></noscript>
-<!-- End Facebook Pixel Code -->
+  <!-- End Facebook Pixel Code -->
 
 
 </head>
 
 <body id="page-top">
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MNVJBPQ"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MNVJBPQ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
   <!-- End Google Tag Manager (noscript) -->
+
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
@@ -87,8 +116,7 @@
       </a>
 
 
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fa fa-bars"></i>
       </button>
@@ -120,24 +148,24 @@
       <div class="intro-text">
         <div class="intro-heading text-uppercase">Lauren Cantlin </div>
         <div class="intro-lead-in">Software Product Management | UX/UI | Web Development</div>
-        
-        
-         <a href="https://github.com/laurencantlin" class="icon" target="_blank">
+
+
+        <a href="https://github.com/laurencantlin" class="icon" target="_blank">
             <i class="fa fa-github-alt fa-lg"></i>
           </a>
-          <a class="icon"  href="https://stackoverflow.com/story/laurencantlin" target="_blank">
+        <a class="icon" href="https://stackoverflow.com/story/laurencantlin" target="_blank">
             <i class="fa fa-stack-overflow fa-lg"></i>
           </a>
-          <a class="icon"  href="https://www.linkedin.com/in/cantlin/" target="_blank">
+        <a class="icon" href="https://www.linkedin.com/in/cantlin/" target="_blank">
             <i class="fa fa-linkedin fa-lg"></i>
           </a>
-       
-          <a class="icon"  href="mailto:laurencantlin2018@u.northwestern.edu" target="_blank">
+
+        <a class="icon" href="mailto:laurencantlin2018@u.northwestern.edu" target="_blank">
             <i class="fa fa-envelope fa-lg"></i>
           </a>
 
-      <br>
-      <br>
+        <br>
+        <br>
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Learn More</a>
         <br>
         <br>
@@ -188,7 +216,9 @@
       </div>
     </div>
   </section>
+ 
 
+  <!-- PORTFOLIO -->
   <section class="bg-light" id="portfolio">
     <div class="container">
       <div class="row">
@@ -233,7 +263,7 @@
               <h4>Bracket Mayhem App</h4>
 
               <p class="text-muted text-nowrap text-truncate"> HTML | CSS | JavaScript</p>
-              <p class="text-muted text-nowrap text-truncate"> jQuery | Node.js | MySQL</p>   
+              <p class="text-muted text-nowrap text-truncate"> jQuery | Node.js | MySQL</p>
             </div>
           </div>
         </div>
@@ -300,13 +330,15 @@
             </div>
           </div>
         </div>
-      
+
 
       </div>
 
 
     </div>
   </section>
+
+
 
   <!-- EXPERIENCE -->
   <section id="about">
@@ -347,8 +379,7 @@
                 </div>
                 <div class="timeline-body">
                   <p class="text-muted">
-                    • Led UX/UI design changes for a cloud platform with 6 products that served 10 different user types ranging from B2B business
-                    partners to consumer users.
+                    • Led UX/UI design changes for a cloud platform with 6 products that served 10 different user types ranging from B2B business partners to consumer users.
                   </p>
                   <p class="text-muted">
 
@@ -356,8 +387,7 @@
                   </p>
                   <p class="text-muted">
 
-                    • Designed interface changes and permissions for 2 new user personas. Interface resulted in more new user signups in the
-                    first 4 months of 2017 than all of 2016 </p>
+                    • Designed interface changes and permissions for 2 new user personas. Interface resulted in more new user signups in the first 4 months of 2017 than all of 2016 </p>
                 </div>
               </div>
             </li>
@@ -393,8 +423,7 @@
                 </div>
                 <div class="timeline-body">
                   <p class="text-muted">
-                    • Wrote winning grant proposals for Accelerate Baltimore and TEDCO business competitions. Directed marketing content for
-                    an Indiegogo campaign.
+                    • Wrote winning grant proposals for Accelerate Baltimore and TEDCO business competitions. Directed marketing content for an Indiegogo campaign.
                   </p>
                   <p class="text-muted">
 
@@ -432,6 +461,210 @@
     </div>
   </section>
 
+  <!--  -->
+  <!-- TESTIMONIALS -->
+  <section id="testimonials">
+      <div class="container">
+          <h2 class="section-heading text-center">TESTIMONIALS</h2>
+
+        <div class="row">
+          <div id="carouselExampleIndicators" style="width:100%;" class="carousel slide my-2">
+  
+            <div class="carousel-inner ">
+  
+              <div class="carousel-item active p-3 " style="background-color: transparent;">
+                <div class="row">
+                  <div class="col-lg-2"></div>
+                  <div class="col-lg-8">
+                    <div class="card shadow-lg">
+                        <div class="card-body px-5 pt-4 pb-3">
+                            <i class="fa fa-quote-left"></i>
+                        <div class="ref-text" id="ref-john">
+                          <p class="testimonial-text">It was my sincere pleasure to have worked with Lauren on a recent project. Lauren is highly intelligent, motivated, and an exceedingly capable developer. She selflessly undertook tasks of her own volition, and consistently delivered more than expected.
+                          Not once did she grouse or display indifference toward our project which could not have been easy for anyone with a neophytish exposure to collegiate sports. I was genuinely impressed by and appreciative of Lauren’s unostentatious
+                          display of professionalism, her eagerness to participate, and the extraordinary quality of her contributions. Lauren was a tremendous asset to our team, and precisely the type of person I always hope to be tasked to work with.</p>
+                        </div>
+                        <div style="text-align: right;">
+                          <a class="see-ref-link btn invisible" data-toggle="modal" data-target=".ref-modal">[ + expand ]</a>
+                          <p class="ref-name ">John Transor <br> Web Developer </p>
+                        </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2"></div>
+                </div>
+              </div>
+  
+              <div class="carousel-item p-3 " style="background-color: transparent;">
+                <div class="row">
+                  <div class="col-lg-2"></div>
+                  <div class="col-lg-8">
+                    <div class="card shadow-lg">
+                        <div class="card-body px-5 pt-4 pb-3">
+                            <i class="fa fa-quote-left"></i>
+                        <div class="ref-text" id="ref-jeffrey">
+                          <p class="testimonial-text">Lauren is quite clever and able to skillfully solve tech problems using just her wit. She is always helping others and is a joy in the classroom. Lauren's ability to prioritize during a stressful situation is extremely helpful when working together and
+                          I hope we'll have the chance to work together again.</p></div>
+                        <div style="text-align: right;">
+                          <a class="see-ref-link btn invisible" data-toggle="modal" data-target=".ref-modal">[ + expand ]</a>
+                          <p class="ref-name ">Jeffrey Berman <br> Web Developer </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2"></div>
+                </div>
+  
+              </div>
+  
+              <div class="carousel-item p-3 " style="background-color: transparent;">
+                <div class="row">
+                  <div class="col-lg-2"></div>
+                  <div class="col-lg-8">
+                    <div class="card shadow-lg">
+                        <div class="card-body px-5 pt-4 pb-3">
+                            <i class="fa fa-quote-left"></i>
+                        <div class="ref-text" id="ref-ann">
+                          <p class="testimonial-text">What stands out for me with Lauren is that she is not scared away by details AND she can hold on to the big picture. She is extremely trainable, she listens well, she remembers, and she can follow through. 
+  
+                          </p>
+                          <p class="testimonial-text">
+                          In terms of specific skills that
+                          I have "taught" her, I will list: VirtualBox, screen capture and video recording, and CodeSite-LiveViewer and appropriate use thereof. All of those were required so that she could "reproduce" problem situations in a way that made
+                          it easy, or at least possible, for other people on the team to fix issues. Most people lose patience and do not have the diligence to provide sufficient detail for a software team to make efficient progress on bugs. Lauren is the
+                          opposite. Not only can she find software issues, she can provide the exact type of detail that developers need. This is definitely something she learned during the time I have worked with her. 
+                        </p>
+                        <p class="testimonial-text">Overall, Lauren has a great attitude.
+                          I always enjoy interacting with her. She has the trait I value most highly in a contractor or employee: she is "solution oriented." 
+                        </p>
+                        <p class="testimonial-text">I would say that her lack of formal training is part of why she has so far kept her "beginner's
+                          mind" approach to everything. She keeps learning, regardless of whether she is trying to pass an exam or impress someone. 
+                        </p>
+                        <p class="testimonial-text">I do think she is capable of more UX design and probably even general software specification work than she
+                          has done so far. It probably would help for her to take some courses. 
+                        </p>
+                        <p class="testimonial-text">There is one that I would recommend very highly, called Paper Prototyping. I have paid for some of my contractors to watch that one. It seems very simple, but,
+                          if followed it lets you put all your effort in to early design and much less Into software maintenance. Basically it shows how to use simple techniques to present UX ideas to a test subject, without using a computer system, and
+                          how to evaluate the feedback to quickly improve a system. https://www.nngroup.com/articles/paper-prototyping/
+                        </p>
+                        <p class="testimonial-text"> I hope this information is relevant. If there are any follow-up questions, just let me know. 
+                          </p>
+  
+  
+                        </div>
+                        <div style="text-align: right;">
+                            <a class="see-ref-link invisible btn" data-toggle="modal" data-target=".ref-modal">[ + expand ]</a>
+                        <p class="ref-name ">Ann Lynnworth <br> Web Developer </p>
+  </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2"></div>
+  
+                </div>
+  
+              </div>
+  
+              <div class="carousel-item p-3 " style="background-color: transparent;">
+                <div class="row">
+                  <div class="col-lg-2"></div>
+                  <div class="col-lg-8">
+                    <div class="card shadow-lg">
+                        <div class="card-body px-5 pt-4 pb-3">
+                            <i class="fa fa-quote-left"></i>
+                        <div class="ref-text" id="ref-dom">
+                         
+                          <p class="testimonial-text">
+                            For many years now I have had the good fortune to work (mostly) on the sureTREAT software projects for Taylor. During this time I have collaborated and worked with quite a few software teams and individuals. Of everyone that has been involved in specifications,
+                            testing, reporting and documentation, Lauren has been the obvious standout.
+                          </p>
+                          <p class="testimonial-text">
+                            This is due to her highly co-operative and enthusiastic attitude, her strong desire and willingness to learn, impressive organizational skills, excellent attention to detail, and an ever improving extensive body of communication of complex testing results
+                            and/or specifications for software features. 
+                          </p>
+                          <p class="testimonial-text">
+                            From my perspective, Lauren is both an integral and very important team member for the ongoing success of software development at Taylor. She is loyal, cares very much about the integrity of any software that Taylor develops, is very quick to learn and
+                            is highly trainable. Lauren is a clear and concise communicator and is able to willingly action sensible suggestions that help a team to work more efficiently.
+                           </p>
+                          <p class="testimonial-text">
+                            For example, back in June 2015, I asked quite a number of team members at Taylor to help with the very time consuming task of item tracking. The idea was to enable a more efficient organization of details and a much clearer form of communication. <br>                          Here is a thank you message that was emailed to Lauren at that time. This message was also copied to Tom Wise and Alex.
+                           </p>
+                          <p class="testimonial-text">
+  
+                            #224 Maintain item tracking files for all features and defects for all products
+                            <br>
+                            <strong>Conversations:</strong>
+                            <br> 24-Jun-2015 Dominic
+                            <br>
+                            <strong>
+                                  Hi Lauren, 
+                                      <br>
+                                  I would like to extend a very grateful "Thank You !" to you.    <br>
+                                  Thank you for taking the time to:</strong> <br> 1. Prefix your subject with the project name and item number "sureTREAT#224:"<br> 2. Create subject text that is concise and that accurately reflects
+                            the content of the email. This subject will also be very helpful when searching (down the track) the many emails related to the item. <br> 3. Including the item description at the top of the message as verification that the 224
+                            in the subject was correct.<br> 4. Formatting the content of the email in a way that helps me to copy and paste it to the item tracking system.<br> 5. Concisely wording the email.<br> 6. Naming the spreadsheet in a way that sorts
+                            correctly when in a folder with many other similar item tracking files !<br> 7. Taking the initiative to identify all items that you had updated in the spreadsheet. This additional text information is immensely helpful (in addition
+                            to the purple/pink coloring) for knowing which items to update in the item tracking system. <br> 8. Advising which completed items are still outstanding and why.<br> You can probably imagine how mind numbing the process of item
+                            tracking can be, and any assistance at speeding up the process is very much appreciated.
+                            <br> Thank you again. <br> Best, <br> Dominic
+                          </p>
+                          <p class="testimonial-text">
+                            The actions taken in this email are typical of Lauren's response over the years to requests for improvement in techniques, reporting, communication, testing and so on.
+                           </p>
+                          <p class="testimonial-text">
+                            Her level of skill has grown a great deal over the past few years as is also evidenced by her very important and effective participation in the development of Flywheel - inclusive of specification, testing, reporting and communication.
+                           </p>
+                          <p class="testimonial-text">
+                            Lauren is a delight to work with, highly trainable, very professional, an excellent tester of complex software, a crystal clear communicator, a great organizer, and from my perspective continues to improve in every area of her work as part of the software
+                            development team at Taylor. 
+                          </p>
+                          <p class="testimonial-text">
+                            Thank you for the opportunity to share these thoughts about Lauren. 
+                          </p>
+                          <p class="testimonial-text">
+                            Best, Dominic
+                          </p>
+  
+                        </div>
+  
+                          <div style="text-align: right;">
+                            <a class="see-ref-link invisible btn" data-toggle="modal" data-target=".ref-modal">[ + expand ]</a>
+                            <p class="ref-name ">Dominic Kennedy <br> Web Developer </p>
+                            
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2"></div>
+  
+                </div>
+  
+              </div>
+            </div>
+  
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+          </div>
+        </div>
+  
+      </div>
+    </section>
+  
+    <!-- Testimonial modal -->
+    <div class="modal fade ref-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content p-5" id="ref-popup">
+        </div>
+      </div>
+    </div>
+  
+  <!--  -->
   <!-- MORE INFO -->
   <section class="bg-light" id="team">
     <div class="container">
@@ -489,6 +722,8 @@
 
 
 
+
+
   <!-- Footer -->
   <footer>
     <div class="container">
@@ -531,8 +766,9 @@
     </div>
   </footer>
 
+
   <!-- Portfolio Modals -->
- 
+
   <!-- INTERVIEW FIEND APP -->
   <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
@@ -655,8 +891,7 @@
                   <p>
                     <a href="https://github.com/laurencantlin/Packing-List" target="blank">>> GitHub repository</a>
                   </p>
-                  <p class=" text-muted">TripBuddy lets you create and save packing lists for upcoming trips, and displays trip weather based on
-                    the trip's destination and travel dates.
+                  <p class=" text-muted">TripBuddy lets you create and save packing lists for upcoming trips, and displays trip weather based on the trip's destination and travel dates.
                   </p>
                 </ul>
                 <a href="https://laurencantlin.github.io/Packing-List/" target="blank">

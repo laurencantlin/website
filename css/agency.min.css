@@ -1,6 +1,13 @@
- body {
+:root {
+    --orange:#fa886f;
+    --darkorange:#f46f51;
+    --darkslate:#222;
+    --lightgray:#f8f9fa;
+    --gray:#6b757c;
+ }
+body {
    overflow-x: hidden;
-   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif
+   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
  }
 
  p {
@@ -46,7 +53,8 @@
  section h2.section-heading {
    font-size: 40px;
    margin-top: 0;
-   margin-bottom: 15px
+   margin-bottom: 15px;
+   /* color:var(--orange) */
  }
 
  section h3.section-subheading {
@@ -249,6 +257,7 @@
 
  #services {
    background-color: rgb(255, 255, 255);
+
  }
 
  .service-heading {
@@ -650,8 +659,8 @@
    /* text-align: center; */
    /* margin: auto; */
    border: 7px solid #fff;
-   filter: gray;
-   -webkit-filter: grayscale(100%);
+   /* filter: gray;
+   -webkit-filter: grayscale(100%); */
  }
 
  .team-member h4 {
@@ -944,7 +953,9 @@ h5 {
 
  footer {
    padding: 25px 0;
-   text-align: center
+   text-align: center;
+   /* background-color:blue !important; */
+
  }
 
  footer span.copyright {
@@ -992,11 +1003,11 @@ h5 {
    background-color: #fa886f;
    background-color: #F8F9FA;
 
-   /* background-color: lightgray; */
  }
 
  section#testimonials .card {
-   box-shadow: 10px 10px 10px #00000049;
+   box-shadow: 10px 10px 10px #00000049;   ;
+
  }
 
 
@@ -1032,7 +1043,9 @@ h5 {
  }
 
 .ref-modal{
-  text-indent: 50px;
+  text-indent: 30px;
+  /* color: var(--main-color); */
+
   word-wrap:  break-word !important;
  font-size: 14px !important;
  font-style: italic;

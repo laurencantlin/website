@@ -7,43 +7,49 @@
     }
 
     ::-webkit-scrollbar {
-        width: 10px;
-        background: transparent;
-      }
-  
-      ::-webkit-scrollbar-track {
-        background: transparent;
-      }
-  
-      ::-webkit-scrollbar-thumb {
-        background: rgba(160, 160, 160, 0.324);
-        background: transparent;
-        border-radius: 10px;
-        border: 1px solid white;
-        width: 5px;
-      }
-  
-      ::-webkit-scrollbar-thumb:hover {
-        background: rgb(72, 72, 72);
-      }
-  
-      ::-webkit-scrollbar-track-piece {
-        background: transparent;
-      }
+      width: 10px;
+      background: transparent;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: rgba(160, 160, 160, 0.324);
+      background: transparent;
+      border-radius: 10px;
+      border: 1px solid white;
+      width: 5px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgb(72, 72, 72);
+    }
+
+    ::-webkit-scrollbar-track-piece {
+      background: transparent;
+    }
+
     body {
-      height: 100vh;
+      max-height: 100vh;
       background-color: linen;
       background-color: ghostwhite;
     }
 
     .header {
       background: var(--darkslate);
+      height: 100%;
     }
 
     /* .container.container.panels {
       height: calc(100% - 120px - 40px);
       padding-top: 20px;
     } */
+
+    .panes {
+      height: calc(100vh - 74px);
+    }
 
     .refpanel {
       overflow: scroll;
@@ -60,17 +66,22 @@
       border-color: rgba(0, 0, 0, 0.125);
     }
 
-    .row {
+    /* .row {
       height: 100%;
+    } */
+
+    .testimonial-panel {
+        height: 100% ;
+        padding: 40px !important;
     }
-.testimonial-panel{
-    margin : 0 auto;
-}
+
     .paper {
+      margin-top: 0 !important;
       background-color: white;
       box-shadow: 3px 4px 6px 3px #00000034;
+      /* height: calc(100% - 120px - 40px); */
+      /* height: calc(100vh - 74px); */
       height: 100%;
-      width: 85%;
       overflow-y: scroll;
       margin: 0 auto;
     }
@@ -82,7 +93,6 @@
       /* width: 85%;  */
       overflow-y: scroll;
     }
-
 
     .ref-text {
       margin-top: 50px;
@@ -107,3 +117,8 @@
       font-size: 16px;
       /* font-weight: bold; */
     }
+
+    .ref-list {
+      height: 100%
+    }
+p.testimonial-text{margin-bottom: 0;}

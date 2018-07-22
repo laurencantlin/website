@@ -1,0 +1,109 @@
+    :root {
+      --orange: #fa886f;
+      --darkorange: #f46f51;
+      --darkslate: #212629;
+      --lightgray: #f8f9fa;
+      --gray: #6b757c;
+    }
+
+    ::-webkit-scrollbar {
+        width: 10px;
+        background: transparent;
+      }
+  
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+  
+      ::-webkit-scrollbar-thumb {
+        background: rgba(160, 160, 160, 0.324);
+        background: transparent;
+        border-radius: 10px;
+        border: 1px solid white;
+        width: 5px;
+      }
+  
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgb(72, 72, 72);
+      }
+  
+      ::-webkit-scrollbar-track-piece {
+        background: transparent;
+      }
+    body {
+      height: 100vh;
+      background-color: linen;
+      background-color: ghostwhite;
+    }
+
+    .header {
+      background: var(--darkslate);
+    }
+
+    /* .container.container.panels {
+      height: calc(100% - 120px - 40px);
+      padding-top: 20px;
+    } */
+
+    .refpanel {
+      overflow: scroll;
+    }
+
+    .list-group-item {
+      background: #fffffffa;
+      /* margin: 10px 0; */
+    }
+
+    .list-group-item.active {
+      background: #b6b6b653;
+      color: var(--darkslate);
+      border-color: rgba(0, 0, 0, 0.125);
+    }
+
+    .row {
+      height: 100%;
+    }
+.testimonial-panel{
+    margin : 0 auto;
+}
+    .paper {
+      background-color: white;
+      box-shadow: 3px 4px 6px 3px #00000034;
+      height: 100%;
+      width: 85%;
+      overflow-y: scroll;
+      margin: 0 auto;
+    }
+
+    .papercontent {
+      background-color: white;
+      /* box-shadow: 3px 4px 6px 3px #00000034; */
+      height: 100%;
+      /* width: 85%;  */
+      overflow-y: scroll;
+    }
+
+
+    .ref-text {
+      margin-top: 50px;
+      font: italic 15px 'Roboto Slab'
+    }
+
+    .btn-peach {
+      background: #fa886f;
+      color: white;
+    }
+
+    .ref-header-testimonials {
+      color: var(--darkorange);
+    }
+
+    .emaillabels {
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .emailfields {
+      font-size: 16px;
+      /* font-weight: bold; */
+    }

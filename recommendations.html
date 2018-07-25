@@ -2,387 +2,48 @@
 <html lang="en">
 
 <head>
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118758071-1"></script>
-   <script>
-     window.dataLayer = window.dataLayer || [];
- 
-     function gtag() {
-       dataLayer.push(arguments);
-     }
-     gtag('js', new Date());
- 
-     gtag('config', 'UA-118758071-1');
- 
-   </script>
-  <title>Recommendations</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css" />
-  <style>
-    :root {
-      --orange: #fa886f;
-      --darkorange: #f46f51;
-      --darkslate: #212629;
-      --lightgray: #f8f9fa;
-      --gray: #6b757c;
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118758071-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
     }
+    gtag('js', new Date());
 
-    body {
-      height: 100vh;
-      background-color: linen;
-      background-color: ghostwhite;
+    gtag('config', 'UA-118758071-1');
+
+  </script>
+<title> Recommendations </title>
+
+<style>
+    html{
+        height:100vh;
+        background: blue;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
     }
-
-    .header {
-      background: var(--darkslate);
+    body{
+        height:100%;
+        background: blue;
+        margin: 0;
+        padding: 0;
     }
-
-    .container.container.panels {
-      height: calc(100% - 120px - 40px);
-      padding-top: 20px;
+    iframe{
+        margin: 0;
+        padding: 0;
+        border:none;
+        height: 100%;
+        width: 100%;
     }
-
-    .refpanel {
-      overflow: scroll;
-    }
-
-    .list-group-item {
-      background: #fffffffa;
-      /* margin: 10px 0; */
-    }
-
-    .list-group-item.active {
-      background: #b6b6b653;
-      color: var(--darkslate);
-      border-color: rgba(0, 0, 0, 0.125);
-    }
-
-    .row {
-      height: 100%;
-    }
-
-    .paper {
-      background-color: white;
-      box-shadow: 3px 4px 6px 3px #00000034;
-      height: 100%;
-      width: 85%;
-      overflow-y: scroll;
-      margin: auto;
-    }
-
-    .papercontent {
-      background-color: white;
-      /* box-shadow: 3px 4px 6px 3px #00000034; */
-      height: 100%;
-      /* width: 85%;  */
-      overflow-y: scroll;
-    }
-
-    ::-webkit-scrollbar {
-      width: 10px;
-      background: transparent;
-    }
-
-    ::-webkit-scrollbar-track {
-      background: transparent;
-    }
-
-    ::-webkit-scrollbar-thumb {
-      background: rgba(160, 160, 160, 0.324);
-      background: transparent;
-      border-radius: 10px;
-      border: 1px solid white;
-      width: 5px;
-    }
-
-    ::-webkit-scrollbar-thumb:hover {
-      background: rgb(72, 72, 72);
-    }
-
-    ::-webkit-scrollbar-track-piece {
-      background: transparent;
-    }
-
-    .ref-text {
-      margin-top: 50px;
-      font: italic 15px 'Roboto Slab'
-    }
-
-    .btn-peach {
-      background: #fa886f;
-      color: white;
-    }
-
-    .ref-header-testimonials {
-      color: var(--darkorange);
-    }
-
-    .emaillabels {
-      font-size: 16px;
-      font-weight: bold;
-    }
-
-    .emailfields {
-      font-size: 16px;
-      /* font-weight: bold; */
-    }
-
-  </style>
-
+</style>
 </head>
-
 <body>
-  <div class="header p-3">
-    <div class="container">
-      <a href="index.html" role="button" aria-pressed="true">  <img src="img/lc-logo-white-outlined.png"/></a>
-    </div>
-  </div>
-
-  <div class="panels  container">
-    <div class="row">
-      <div class="col-lg-4 col-xs-12 refpanel p-0">
-        <h2 class="ml-4">List of References:</h2><br>
-        <!-- <h2>LIST OF REFERENCES</h2> -->
-        <div class="list-group ml-4" id="list-tab" role="tablist">
-          <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-dom" role="tab" aria-controls="home">
-            <div class="d-flex justify-content-between aligh-items-center">
-              <div>
-                <h5 class="mb-1">Dominic Kennedy </h5>
-                <!-- <small>Relationship: Colleague</small> -->
-                <h6 class="mb-1">Lead Software Developer </h6>
-                Contracted by Taylor Technologies, Inc.
-                <small><strong>Relationship : </strong> Colleague from 2012-2018 </small>
-                <br><br>
-                <small><strong> email | </strong> dominic@excellence.com.au</small>
-              </div>
-              <div class="align-self-center p-1"><i class="fas fa-chevron-right"></i> </div>
-            </div>
-          </a>
-
-          <a class="list-group-item list-group-item-action " id="list-home-list" data-toggle="list" href="#list-ann" role="tab" aria-controls="home">
-            <div class="d-flex justify-content-between aligh-items-center">
-              <div>
-                <h5 class="mb-1">Ann Lynnworth </h5>
-                <h6 class="mb-1">Software Developer </h6>
-                Contracted by Taylor Technologies, Inc.<br>
-                <small><strong>Relationship : </strong> Colleague from 2016-2018 </small><br><br>
-
-                <small><strong> email | </strong> ann@href.com</small>
-              </div>
-              <div class="align-self-center p-1"><i class="fas fa-chevron-right"></i> </div>
-            </div>
-          </a>
-
-          <a class="list-group-item list-group-item-action " id="list-home-list" data-toggle="list" href="#list-jeffrey" role="tab" aria-controls="home">
-            <div class="d-flex justify-content-between aligh-items-center">
-              <div>
-                <h5 class="mb-1">Jeffrey Berman </h5>
-                <h6 class="mb-1">Web Developer </h6> <small><strong>Relationship : </strong> Classmate at Northwestern University </small><br><br>
-                <small><strong> email | </strong> </small>
-              </div>
-              <div class="align-self-center p-1"><i class="fas fa-chevron-right"></i> </div>
-            </div>
-          </a>
-
-
-          <a class="list-group-item list-group-item-action " id="list-home-list" data-toggle="list" href="#list-john" role="tab" aria-controls="home">
-            <div class="d-flex justify-content-between aligh-items-center">
-              <div>
-                <h5 class="mb-1">John Tansor </h5>
-                <h6 class="mb-1">Web Developer </h6> <small><strong>Relationship : </strong> Classmate at Northwestern University </small><br><br>
-                <small><strong> email | </strong> </small>
-              </div>
-              <div class="align-self-center p-1"><i class="fas fa-chevron-right"></i> </div>
-            </div>
-          </a>
-        </div>
-      </div>
-
-
-      <div class="col-lg-8 col-md-12 testimonial-panel  mt-5 p-0"> <a href="./recommendations.html" class= "m-5 p-2 back-btn-to-refs"><i class="far fa-long-arrow-left fa-lg"></i></a>
-        <div class="paper pt-4 pb-5 mt-3 pl-4 pr-2">
-          <div class="papercontent pt-4 pb-4 pl-4 pr-4">
-
-            <div class="tab-content" id="nav-tabContent">
-
-              <div class="tab-pane fade show active" id="list-dom" role="tabpanel" aria-labelledby="list-home-list">
-                <div class="ref-header row">
-                  <div class="col-lg-3">
-                    <p class="emaillabels">From: <br>Sent: <br>To: <br>Subject: </p>
-                  </div>
-                  <div class="col-lg-9">
-                    <p class="emailfields">Dominic Kennedy &lt;dominic@excellence.com.au&gt;<br> Friday, October 20, 2017 2:03 PM<br> Caroline Hanna<br> Re:Lauren
-                    </p>
-                  </div>
-                </div>
-
-                <div class="ref-text" id="ref-dom">
-
-                  <p class="testimonial-text">Hi Caroline,
-
-                  </p>
-                  <p class="testimonial-text">
-                    I am very pleased to share my thoughts about Lauren's value to your software team at Taylor.
-                  </p>
-                  <p class="testimonial-text">
-                    For many years now I have had the good fortune to work (mostly) on the sureTREAT software projects for Taylor. During this time I have collaborated and worked with quite a few software teams and individuals. Of everyone that has been involved in specifications,
-                    testing, reporting and documentation, Lauren has been the obvious standout.
-                  </p>
-                  <p class="testimonial-text">
-                    This is due to her highly co-operative and enthusiastic attitude, her strong desire and willingness to learn, impressive organizational skills, excellent attention to detail, and an ever improving extensive body of communication of complex testing results
-                    and/or specifications for software features.
-                  </p>
-                  <p class="testimonial-text">
-                    From my perspective, Lauren is both an integral and very important team member for the ongoing success of software development at Taylor. She is loyal, cares very much about the integrity of any software that Taylor develops, is very quick to learn and
-                    is highly trainable. Lauren is a clear and concise communicator and is able to willingly action sensible suggestions that help a team to work more efficiently.
-                  </p>
-                  <p class="testimonial-text">
-                    For example, back in June 2015, I asked quite a number of team members at Taylor to help with the very time consuming task of item tracking. The idea was to enable a more efficient organization of details and a much clearer form of communication. <br>                    Here is a thank you message that was emailed to Lauren at that time. This message was also copied to Tom Wise and Alex.
-                  </p>
-                  <p class="testimonial-text">
-
-                    #224 Maintain item tracking files for all features and defects for all products
-                    <br>
-                    <strong>Conversations:</strong>
-                    <br> 24-Jun-2015 Dominic
-                    <br>
-                    <strong>
-                            Hi Lauren, 
-                                <br>
-                            I would like to extend a very grateful "Thank You !" to you.    <br>
-                            Thank you for taking the time to:</strong> <br> 1. Prefix your subject with the project name and item number "sureTREAT#224:"<br> 2. Create subject text that is concise and that accurately reflects the content
-                    of the email. This subject will also be very helpful when searching (down the track) the many emails related to the item. <br> 3. Including the item description at the top of the message as verification that the 224 in the subject
-                    was correct.
-                    <br> 4. Formatting the content of the email in a way that helps me to copy and paste it to the item tracking system.<br> 5. Concisely wording the email.<br> 6. Naming the spreadsheet in a way that sorts correctly when in a folder with
-                    many other similar item tracking files !<br> 7. Taking the initiative to identify all items that you had updated in the spreadsheet. This additional text information is immensely helpful (in addition to the purple/pink coloring) for
-                    knowing which items to update in the item tracking system. <br> 8. Advising which completed items are still outstanding and why.<br> You can probably imagine how mind numbing the process of item tracking can be, and any assistance
-                    at speeding up the process is very much appreciated.
-                    <br> Thank you again. <br> Best, <br> Dominic
-                  </p>
-                  <p class="testimonial-text">
-                    The actions taken in this email are typical of Lauren's response over the years to requests for improvement in techniques, reporting, communication, testing and so on.
-                  </p>
-                  <p class="testimonial-text">
-                    Her level of skill has grown a great deal over the past few years as is also evidenced by her very important and effective participation in the development of Flywheel - inclusive of specification, testing, reporting and communication.
-                  </p>
-                  <p class="testimonial-text">
-                    Lauren is a delight to work with, highly trainable, very professional, an excellent tester of complex software, a crystal clear communicator, a great organizer, and from my perspective continues to improve in every area of her work as part of the software
-                    development team at Taylor.
-                  </p>
-                  <p class="testimonial-text">
-                    Thank you for the opportunity to share these thoughts about Lauren.
-                  </p>
-                  <p class="testimonial-text">
-                    Best, Dominic
-                  </p>
-
-                </div>
-              </div>
-
-              <div class="tab-pane fade" id="list-ann" role="tabpanel" aria-labelledby="list-settings-list">
-                <div class="ref-header row">
-                  <div class="col-lg-3">
-                    <p class="emaillabels">From: <br>Sent: <br>To: <br>Subject: </p>
-                  </div>
-                  <div class="col-lg-9">
-                    <p class="emailfields">Ann Lynnworth &lt;ann@href.com&gt;<br> Thursday, October 19, 2017 5:17 PM<br> Caroline Hanna<br> Re:Lauren
-                    </p>
-                  </div>
-                </div>
-
-                <div class="ref-text" id="ref-ann">
-
-                  <p class="testimonial-text">Hi Caroline,
-                  </p>
-                  <p class="testimonial-text">
-                    What stands out for me with Lauren is that she is not scared away by details AND she can hold on to the big picture. She is extremely trainable, she listens well, she remembers, and she can follow through.
-
-                  </p>
-                  <p class="testimonial-text">
-                    In terms of specific skills that I have "taught" her, I will list: VirtualBox, screen capture and video recording, and CodeSite-LiveViewer and appropriate use thereof. All of those were required so that she could "reproduce" problem situations in a way
-                    that made it easy, or at least possible, for other people on the team to fix issues. Most people lose patience and do not have the diligence to provide sufficient detail for a software team to make efficient progress on bugs. Lauren
-                    is the opposite. Not only can she find software issues, she can provide the exact type of detail that developers need. This is definitely something she learned during the time I have worked with her.
-                  </p>
-                  <p class="testimonial-text">Overall, Lauren has a great attitude. I always enjoy interacting with her. She has the trait I value most highly in a contractor or employee: she is "solution oriented."
-                  </p>
-                  <p class="testimonial-text">I would say that her lack of formal training is part of why she has so far kept her "beginner's mind" approach to everything. She keeps learning, regardless of whether she is trying to pass an exam or impress someone.
-                  </p>
-                  <p class="testimonial-text">I do think she is capable of more UX design and probably even general software specification work than she has done so far. It probably would help for her to take some courses.
-                  </p>
-                  <p class="testimonial-text">There is one that I would recommend very highly, called Paper Prototyping. I have paid for some of my contractors to watch that one. It seems very simple, but, if followed it lets you put all your effort in to early design and much less
-                    Into software maintenance. Basically it shows how to use simple techniques to present UX ideas to a test subject, without using a computer system, and how to evaluate the feedback to quickly improve a system. https://www.nngroup.com/articles/paper-prototyping/
-                  </p>
-                  <p class="testimonial-text"> I hope this information is relevant. If there are any follow-up questions, just let me know.
-                  </p>
-
-                  <p class="testimonial-text"> Ann
-                  </p>
-
-
-                </div>
-              </div>
-              <div class="tab-pane fade" id="list-john" role="tabpanel" aria-labelledby="list-profile-list">
-
-                <div class="ref-text mt-0" id="ref-john">
-
-                  <p class="testimonial-text"> <i class="fas fa-quote-left    fa-lg" style="color: var(--darkorange);"> </i> It was my sincere pleasure to have worked with Lauren on a recent project. Lauren is highly intelligent, motivated, and an exceedingly capable developer. She
-                    selflessly undertook tasks of her own volition, and consistently delivered more than expected. Not once did she grouse or display indifference toward our project which could not have been easy for anyone with a neophytish exposure
-                    to collegiate sports. I was genuinely impressed by and appreciative of Lauren’s unostentatious display of professionalism, her eagerness to participate, and the extraordinary quality of her contributions. Lauren was a tremendous asset
-                    to our team, and precisely the type of person I always hope to be tasked to work with. <i class="fas   fa-lg fa-quote-right" style="color: var(--darkorange);"></i>
-
-                  </p>
-                  <p class="testimonial-text text-right" style="font-style: normal">--- John Tansor,<br> Web Developer</p>
-                </div>
-              </div>
-
-              <div class="tab-pane fade" id="list-jeffrey" role="tabpanel" aria-labelledby="list-messages-list">
-                <div class="ref-header  row">
-                  <div class="col-lg-12">
-
-                    <!-- <h2 class="ref-header-testimonials">TESTIMONIALS</h2> -->
-                    <div class="ref-text blockquote mt-0" id="ref-jeffrey">
-                      <p class="testimonial-text"><i class="fas fa-quote-left    fa-lg" style="color: var(--darkorange);"></i> Lauren is quite clever and able to skillfully solve tech problems using just her wit. She is always helping others and is a joy in the classroom. Lauren's
-                        ability to prioritize during a stressful situation is extremely helpful when working together and I hope we'll have the chance to work together again.<i class="fas fa-quote-right    fa-lg" style="color: var(--darkorange);"></i></p>
-                      <p class="testimonial-text text-right " style="font-style: normal">--- Jeffrey Berman,<br> Web Developer</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-    </div>
-  </div>
-
-
-
-  <div class="footer p-1">
-    1
-  </div>
-  <!-- modal -->
-
-  <div class="modal fade viewRec" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        ...
-      </div>
-    </div>
-  </div>
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="./js/custom.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/js/bootstrap.js"></script>
-
+    <!-- <script>
+     window.location.assign("http://laurencantlin.com/Recommendations.pdf") 
+    </script> -->
+    <iframe src="./Recommendations.pdf" type="application/pdf" />
 
 </body>
 

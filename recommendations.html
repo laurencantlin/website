@@ -14,36 +14,47 @@
     gtag('config', 'UA-118758071-1');
 
   </script>
-<title> Recommendations </title>
+  <title> Recommendations </title>
 
-<style>
-    html{
-        height:100vh;
-        background: blue;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
+  <style>
+    html {
+      height: 100vh;
+      background: blue;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
     }
-    body{
-        height:100%;
-        background: blue;
-        margin: 0;
-        padding: 0;
+
+    body {
+      height: 100%;
+      background: blue;
+      margin: 0;
+      padding: 0;
     }
-    iframe{
-        margin: 0;
-        padding: 0;
-        border:none;
-        height: 100%;
-        width: 100%;
+
+    iframe {
+      margin: 0;
+      padding: 0;
+      border: none;
+      height: 100%;
+      width: 100%;
     }
-</style>
+
+  </style>
 </head>
+
 <body>
-    <!-- <script>
+  <script>
+    document.getElementById("theFrame").contentWindow.onload = function() {
+      this.document.getElementsByTagName("img")[0].style.width = "100%";
+    };
+
+  </script>
+
+  <!-- <script>
      window.location.assign("http://laurencantlin.com/Recommendations.pdf") 
     </script> -->
-    <iframe src="./Recommendations.pdf" type="application/pdf" />
+  <iframe src="./Recommendations.pdf" id="theFrame" type="application/pdf" />
 
 </body>
 

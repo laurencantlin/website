@@ -16,6 +16,8 @@
   </script>
   <title> Recommendations </title>
 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
   <style>
     html {
       height: 100vh;
@@ -40,26 +42,41 @@
       width: 100%;
     }
 
-  </style>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    .pdf-img {
+      width: 100%;
+      margin: auto;
+      border: 1px solid blue;
+    }
 
+  </style>
 </head>
 
 <body>
-  <script>
-    document.getElementById("theFrame").contentWindow.onload = function() {
-      this.document.getElementsByTagName("img")[0].style.width = "100%";
-    };
 
-  </script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+        <script>
+                $(document).ready(function() {
+                  $("#theFrame").addClass("pdf-img")
+                })
+            
+              </script>
 
   <!-- <script>
      window.location.assign("http://laurencantlin.com/Recommendations.pdf") 
     </script> -->
-  <!-- <iframe id="theFrame" type="application/pdf" /> -->
-  <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="./Recommendations.pdf" allowfullscreen></iframe>
-      </div>
+  <iframe id="theFrame" type="application/pdf" src="./Recommendations.pdf" />
+  <!-- <div class="embed-responsive embed-responsive-1by1">
+        <object class="embed-responsive-item" type="application/pdf" src="./Recommendations.pdf" allowfullscreen></object>
+      </div> -->
+
+
 </body>
 
+<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+<script>
+        $(document).ready(function() {
+          $("#theFrame").addClass("pdf-img")
+        })
+    
+      </script> -->
 </html>
